@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: 33vh;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.a{
+    flex-direction: row-reverse;
+}
+
+.abajo{
+    margin-bottom: 0px;
+}
+
+.cubo{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    line-height: 60px;
+    font-size: 60px;
+    padding: 20px;
+    color: white;
+
+}
+
+.filas{
+    display: flexbox;
+    flex-direction: row;
+}
